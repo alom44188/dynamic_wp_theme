@@ -1,0 +1,232 @@
+
+/*
+Theme Name: Blog Theme
+Theme URI: https://wordpress.org/themes/Blog Theme/
+Author: K. Alom
+Author URI: https://k_Alom.com/
+Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 1.0
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Blog Theme
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+*{
+    margin: 5px;
+    padding:0px;
+}
+h2 a{
+    text-decoration: none;
+}
+.blog{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.fastsection{
+
+    width: 100%;
+    padding: 10px 10px;
+    height: 100px;
+    background-color: wheat;
+   
+}
+.fastsection .logo{
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 30px;
+    float: left;
+
+}
+
+.fastsection .banner{
+    width: 50%;
+    float: right;
+    margin-top: 30px;
+    margin-right: -250px;
+}
+
+.secroom{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(51, 51, 51);
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+.secroom ul{
+
+    margin-left: 30px;
+    margin-top: -8px;
+}
+.secroom ul li{
+
+    display: inline-block;
+    padding-right: 50px;
+}
+.secroom ul li a{
+
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 5px 0px;
+}
+.secroom ul li a:hover{
+    border-bottom: 1px dotted white;
+    
+}
+
+.slider{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 30px;
+}
+
+.troom{
+    width: 100%;
+    height: auto;
+}
+
+.troom .news{
+    width: 60%;
+    margin-bottom: 50px;
+    float: left;
+}
+
+.news p{
+    text-align: justify;
+    font-size: 17px;
+}
+
+.troom .treading{
+    width: 35%;
+    float: left;
+    color: white;
+    margin-left: 45px;
+}
+
+.troom .treading h2{
+
+    color: black;
+    text-align: center;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    margin-bottom: 26px;
+    font-size: 40px;
+}
+
+.troom .treading a{
+    text-decoration: none;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 0px;
+    margin-bottom: 7px;
+    margin-left: -1px;
+    line-height: 35px;
+}
+
+.troom .treading a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.topnews{
+    width: 100%;
+    margin-bottom: 50px;
+    float: left; 
+    margin-top: 30px;
+}
+
+.troom .news1 img{
+    width:100%;
+}
+
+.topnews .news{
+    margin-bottom: 50px;
+}
+.topnews .h23{
+    font-size: 36px;
+    margin-bottom: 35px;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    text-align: center;
+}
+
+.topnews .news img{
+
+    width: 95%;
+}
+
+.topnews p{
+    text-align: justify;
+    font-size: 17px;
+}
+
+.foot{
+    display: flex;
+    width: 95%;
+    border: 2px solid yellowgreen;
+    padding: 30px 35px;
+    background-color: #f5deb317;
+    border-radius: 15px;
+    box-shadow: 0 0 2px ;
+    margin-bottom:5px;
+}
+
+.foot .tnews{
+    width: 45%;
+}
+.foot .tnews h2{
+    text-align: center;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid;
+    width: 80%
+}
+.foot .tnews a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.foot .tnews a:hover{
+    color: green;
+    text-decoration: underline;
+}
+.foot .trnwes{
+    width: 45%;
+}
+
+.foot .trnwes h2{
+ 
+    text-align: center;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid;
+    width: 80%
+}
+.foot .trnwes a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.foot .trnwes a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+.copy{
+    text-align: center;
+}
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+
+}
